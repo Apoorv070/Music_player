@@ -1,0 +1,904 @@
+*{
+
+	margin: 0rem;
+
+}
+
+
+                                                /*header*/
+
+body{
+	margin: 0rem;
+	background-color: #0C1027;
+}
+header{
+	margin: 0rem;
+}
+.header-img1{
+
+	height:2.8rem; 
+	width:3.5rem;
+	border-radius: 50%;
+	padding: 0rem 0.5rem 0rem 0.5rem;
+	box-sizing: border-box;
+}
+
+.header-img2{
+
+	height:2.5rem; 
+	width:2.5rem;
+	border-radius: 50%;
+}
+#artist-header{
+	margin: 0rem;
+    background-color: #0C1027;
+    width: 100%;
+}
+
+.artist-header-div{
+	margin: 1rem 1rem 0rem 1rem; 
+	display: grid;
+	grid-template-columns: 4% 9%  57% 21% 4% 5%;
+	padding: 1rem 2rem 1rem 4rem;
+
+}
+
+.abc{
+	font-weight: 500;
+	font-size: 1.5rem;
+}
+
+.artist-header-div p{
+	display: block;
+}
+.header-search-qtiyapa{
+	 position: relative;
+
+}
+.fa-search{
+	position: absolute;
+    color: white;
+    opacity: 1;
+    top: 20%;
+    bottom: 40%;
+    left: 5%;
+    opacity: 0.5;
+
+}
+
+.fa-microphone{
+	position: absolute;
+    color: white;
+    opacity: 1;
+    top: 20%;
+    bottom: 40%;
+    left: 75%;
+    opacity: 0.5;
+
+}
+
+
+#artist-header-search{
+	background-color: #12193E;
+	height: 10px;
+	width: 250px;
+	border-radius: 10%;
+	color: white;
+	font-family: cursive;
+	padding: 1rem 1rem 1rem 2rem;
+	border: 0px solid  #12193E;
+	box-sizing: border-box;
+
+}
+
+.artist-header-color {
+	color: white;
+    font-weight: 200;
+}
+
+.header-bell{
+	padding: 1rem ;
+	font-size: 1.4rem;
+	color: white;
+
+}                                                
+
+                                                 /*main*/
+
+main::-webkit-scrollbar { 
+    display: none; 
+}
+ 
+
+main{
+	width: 75%;
+	display: inline-block;
+	background-color: #0C1027;
+	height: 108vh;
+    overflow-y: scroll;
+    margin: 0rem;
+
+}                                                
+
+
+
+
+
+
+                                                /*top release*/
+
+#top-release{
+	background-color: #0C1027;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 1rem;
+}         
+
+.top-release-class{
+	margin: 1rem 2rem 1rem 2rem;
+	box-sizing: border-box;
+    width: 18rem;
+    height: 12rem;
+    transition: 0.8s linear;
+}
+
+.top-release-class:hover{
+     transform: scale(1.4);
+}
+
+                                                 /*latest-release*/
+
+#latest-release{
+	background-color: #0C1027;
+}
+
+#latest-release-heading{
+    color: white;
+	font-size: 1.8rem;
+	font-weight: 300;
+	padding: 0rem;
+	margin: 1rem 1rem 1rem 3.5rem;
+	font-family: sans-serif;
+	
+}
+#latest-release-container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 10rem;
+    width: 90%;
+    margin: 3rem;
+}
+
+.songs{
+
+	height: 3.5rem;
+	width: 40%;
+	box-sizing: border-box;
+	margin: 0rem;
+	padding: 0rem;
+	display: grid;
+	grid-template-columns: 20% 70% 10%;
+
+
+}
+
+.songs-photo-container{
+	position: relative;
+}
+
+
+.songs-class{
+	height:4.5rem;
+	width :4.5rem;
+	box-sizing: border-box;
+}
+
+
+.fa-play {
+    position: absolute;
+    top: 50%;
+    left :50%;
+    color: white;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+
+}
+
+.songs-photo-container:hover .fa-play{
+	opacity: 1;
+}
+
+.songs-class{
+	height:4.5rem;
+	width :4.5rem;
+	box-sizing: border-box;
+}
+
+.latest-release-container-songs{
+	color: white;
+	font-size: 1rem;
+
+}
+.latest-release-container-songs-icon{
+	    color: white;
+	    position: relative;
+}
+
+.latest-release-small-list{
+/*	width: 100px;
+	background-color: white;
+	overflow: hidden;
+	display: none;
+	position: absolute;
+	left: 1%;
+	top:5%;*/
+	width: 120px;
+    background-color: white;
+    /* overflow: hidden; */
+    display: none; 
+    position: absolute;
+    left: 1%;
+    top: 17px;
+    z-index: 1;
+
+}
+
+.latest-release-container-songs-icon:hover .latest-release-small-list{
+	display: block;
+}
+
+.latest-release-item{
+	color: grey;
+	border: 1px solid grey;
+}
+
+.latest-release-container-songs spam{
+	opacity: 0.6;
+
+}
+.latest-release-container-songs-icon1 spam{
+	opacity: 0.6;
+	font-size:  0.7rem;
+
+}
+  
+
+                                                 /*popular-artists*/
+}
+#popular-artists{
+	background-color: #0C1027;
+	margin: 0rem;
+     
+}
+
+#popular-artists-heading{
+	color: white;
+	font-size: 1.8rem;
+	font-weight: 300;
+	padding: 0rem 0rem 0rem 3.4rem;
+	font-family: sans-serif;
+}
+
+#container-popular-artists{
+	margin: 0rem;
+}
+
+#container-popular-artists li{
+   display: inline-block;
+   list-style: none;
+   text-decoration: none;
+}
+
+#container-popular-artists li .container-popular-artists-photo-name{
+    color: white;
+	margin: 0.4rem 0rem 1rem 0rem;
+	padding: 0rem 0rem 0rem 3rem;
+	font-size: 1rem;
+	transition: color 0.5s, border-bottom 4s; 
+
+}
+
+#container-popular-artists li .container-popular-artists-photo-name:hover{
+	color: lightgrey;
+	border-bottom: 1px solid white;
+}
+
+/*
+@keyframes changeshape1{
+	0%{
+		border-radius: 50%;
+	}
+	33%{
+		border-radius: 10%;
+	}
+	66%{
+		border-radius: 50%;
+	}
+	100%{
+		border-radius: 10%;
+	}
+}
+*/
+
+
+/*.artist:hover{
+   transform: scale(1.2);
+
+}*/
+
+.container-popular-artists-photo{
+	  border-radius: 50%;
+      height: 10rem;
+      width: 9rem;
+	  margin: 1rem 0.1rem 1rem 0.5rem;
+	  position: relative;
+}
+
+.artist{
+
+    border-radius: 50%;
+    width: 9rem;
+    height: 9rem;
+    /*animation: 1s changeshape1 ease-in-out infinite;*/
+}
+/*
+.overlay{
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 1s ease;
+    
+
+}
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.icon{
+     color: white;
+     font-size: 40px;
+      position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     text-align: center;
+}
+*/
+
+.fa-play {
+    position: absolute;
+    top: 50%;
+    left :50%;
+    color: white;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+
+}
+
+.container-popular-artists-photo:hover .fa-play{
+	opacity: 1;
+}
+
+
+
+
+
+
+
+                                               /*stations*/
+
+#stations{
+    background-color:  #0C1027;
+
+}                                               
+
+#stations-container{
+	background-color: #101642;
+	padding: 1rem;
+	margin: 0rem 2rem;
+	display: flex;
+	flex-wrap:wrap;
+}
+.stations-container-class{
+     background-color: #101642;
+}
+
+.stations-container-class li{
+	background-color: #101642;
+
+    list-style: inline;
+    margin: 0rem;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+
+.stations-photo{
+
+	border-radius: 50%;
+	margin: 1.2rem;
+	width: 6rem;
+	height: 6rem;
+}
+
+
+
+                                             /*types-of-songs*/
+
+
+#types-of-songs{
+	background-color: #0C1027;
+
+}                                             
+
+
+#types-of-songs-container{
+	margin: 0rem;
+	padding: 1rem;
+	box-sizing: border-box;
+	height: auto;
+	width: 100%;
+
+}
+
+#types-of-songs-container li{
+      list-style: inline;
+    text-decoration: none;
+    display: inline-block;
+
+
+}
+
+
+.types-of-songs-class{
+    margin: 1rem 2rem 1rem 2rem;
+    box-sizing: border-box;
+    width: 18rem;
+    height: 12rem;
+}
+
+.types-of-songs-class:hover{
+	opacity: 0.5;
+}
+
+.bro{
+   position: relative;
+}
+
+.bro1{
+ /*background-color:inherit; */
+ background:none !important;
+ position: absolute;
+ left: 50%;
+ top: 50%;
+ color: white;
+ font-size: 1.5rem;
+ font-weight: 500;
+ transform: translate(-50%,-50%);
+ opacity: 0.8;
+}
+
+.bro1:hover{
+	opacity: 1;
+	font-weight: 800;
+	font-size: 2rem;
+}
+
+
+                                             /*latest-punjabi*/
+
+#Latest-punjabi{
+    background-color: #0C1027;
+ }  
+
+ #Latest-punjabi-header{
+ 	color: white;
+	font-size: 1.8rem;
+	font-weight: 300;
+	padding: 0rem 0rem 0rem 3rem;
+	font-family: sans-serif;
+ }  
+                 
+
+
+.latest-punjabi-songs-class{
+     margin: 1rem ;
+	 height: 8rem ;
+	 width :9rem;
+	 box-sizing: border-box;
+}
+
+.latest-punjabi-songs-class:hover {
+	transform: scale(1.2);
+	opacity: 0.8;
+}
+.latest-punjabi-songs-class-container li{
+	 list-style: inline;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.latest-punjabi-songs-class-container li div{
+	color: white;
+	margin: 0.4rem 0rem 1rem 0rem;
+	padding: 0rem 0rem 0rem 3rem;
+	font-size: 1rem;
+
+
+
+}
+
+
+                                             /* Latest-hindi*/
+
+#Latest-hindi{
+    background-color: #0C1027;
+  }  
+
+ #Latest-hindi-header{
+ 	color: white;
+	font-size: 1.8rem;
+	font-weight: 300;
+	padding: 0rem 0rem 0rem 3rem;
+	font-family: sans-serif;
+ }  
+                 
+
+
+.latest-hindi-songs-class{
+     margin: 1rem ;
+	 height: 8rem ;
+	 width :9rem;
+	 box-sizing: border-box;
+}
+.latest-hindi-songs-class:hover {
+	transform: scale(1.2);
+	opacity: 0.8;
+}
+
+
+.latest-hindi-songs-class-container li{
+	 list-style: inline;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.latest-hindi-songs-class-container li div{
+	color: white;
+	margin: 0.4rem 0rem 1rem 0rem;
+	padding: 0rem 0rem 0rem 3rem;
+	font-size: 1rem;
+
+
+
+}
+
+.bro3{
+	font-size: 1.2rem;
+
+}
+.bro4{
+   font-size: 0.7rem;
+   opacity: 0.6;
+}
+
+                                                 /*aside*/
+
+aside{
+
+	background-color: #0C1027;
+	width: 24%;
+	display: inline-block;
+	margin: 0rem;
+	vertical-align: top;
+}
+
+aside header ul li{
+	list-style: none;
+	display: inline-block;
+	text-decoration: none;
+}
+
+#aside-header1{
+	color: white;
+	font-family: 600;
+	font-size: 2rem;
+}
+
+#aside-header2{
+	color:rgb(0,100,0);
+	font-size: 1rem;
+	margin: 1rem 1rem 1rem 5rem;
+
+}
+
+#aside-header3{
+	color: green;
+	margin:  0.5rem 2.5rem;
+	position: relative;
+}
+#aside-header3:hover .latest-release-small-list{
+	left: 10px;
+	width: 90px;
+	display: block;
+}
+
+                               /*aside-song*/
+
+.aside-section{
+
+	display: flex;
+	flex-direction: column;
+	/*flex-wrap: wrap;*/
+	height: 100vh;
+    overflow-y: scroll;
+	padding : 1.2rem;
+}
+.aside-section::-webkit-scrollbar { 
+    display: none;
+}
+
+.aside-section-song{
+    display: grid;
+    grid-template-columns: 12% 22% 55% 11%;
+    
+}
+
+.aside-section-order{
+	color: white;
+	font-size: 1.8rem;
+	margin:0.7rem;
+	opacity: 0.6;
+
+}
+.aside-section-photo{
+	height: 3rem;
+	width: 2.8rem;
+	padding: 0.5rem;
+}
+
+.aside-section-song p{
+     padding: 0.5rem;
+
+}
+.aside-section-name{
+	font-size: 1.2rem;
+	color: white;
+	font-weight: 500;
+}
+
+.aside-section-singer{
+	
+	font-size: 0.8rem;
+	color: white;
+	font-size: 200;
+	opacity: 0.6;
+}
+
+.aside-section-icon{
+	color: white;
+	font-size: 1rem;
+	margin: 1.2rem;
+	font-weight: 200;
+	opacity: 0.6;
+
+}
+.aside-section-photo-div{
+	position: relative;
+}
+
+
+.fa-play {
+    position: absolute;
+    top: 50%;
+    left :50%;
+    color: white;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+
+}
+
+.aside-section-photo-div:hover .fa-play{
+	opacity: 1;
+}
+
+.aside-section-order i{
+	color: lightblue;
+}
+
+.aside-section-name:hover{
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+
+
+                                                /*last-part*/
+
+.last-part{
+	height: 4.5rem;
+	width: 100%;
+	background-color: #282828;
+	display: flex;
+	padding: 0rem 5rem;
+	position: fixed;
+	bottom: 0;
+	box-sizing: border-box;
+	
+}
+
+.aside-section-photo-div{
+	position: relative;
+}
+.fa-play{
+	position: absolute;
+	text-align: center;
+	opacity: 0;
+}
+.aside-section-photo-div:hover{
+	opacity: 1;
+}
+
+                                                /*last-part1*/
+
+.last-part1{
+	background-color: #282828;
+	display: grid;
+	grid-template-columns: 30% 30% 10% 30%;
+	height: 4rem;
+	width: 20%;
+	margin: 0rem;
+
+}
+.last-part1 img{
+	height: 3.5rem;
+	width : 3.5rem;
+	margin: 0.5rem;
+
+}
+.last-part1 p{
+	margin: 0.3rem;
+	color: white;
+	background-color: #282828;
+}
+
+.last-part1 p spam{
+	background-color: #282828;
+
+}
+.last-part1 i{
+	margin: 0.3rem;
+	color: white;
+	background-color: #282828;
+}
+
+.lastpart-1st-1{
+	font-size: 1rem;
+
+}
+                                                /*last-part2*/
+                    
+.last-part2{
+	padding: 0.5rem 2rem;
+	width: 40%;
+   background-color: #282828;
+   height: 4rem;
+}
+
+.last-part2-one{
+	padding: 0.5rem 3rem 0.5rem 7rem;
+	background-color: #282828;
+	display: grid;
+	grid-template-columns: 15% 15% 15% 15% 40%;
+}
+
+.last-part2-one i{
+	color: white;
+	opacity: 0.6;
+	background-color: #282828;
+
+}
+.lastpart-1st-2{
+	font-size: 0.8rem;
+	opacity: 0.5;
+	color: white;
+}
+
+
+.slidecontainer {
+	 background-color: #282828;
+  width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+	 background-color: #282828;
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 10px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+	border-radius: 50%;
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+	border-radius: 50%;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+
+
+
+                                                         /*last-part3*/
+.last-part3{
+	margin: 2.5rem 7rem;
+	width: 20%;
+   background-color: #282828;
+   height: 4rem;
+   display: grid;
+   grid-template-columns: 10% 10% 10% 60% 10%;
+}
+.last-part3 i{
+	background-color: #282828;
+	opacity: 0.6;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
