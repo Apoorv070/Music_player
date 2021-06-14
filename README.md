@@ -9,3 +9,6 @@
 <img src="https://github.com/Apoorv070/Music_player/blob/main/Demo1.PNG"  width="600" height="400" />
 
 <img src="https://github.com/Apoorv070/Music_player/blob/main/demo2.PNG "  width="600" height="400" />
+
+Demo of working Project:
+https://www.youtube.com/watch?v=wIJw9NJhD0E
